@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.clwater.lib_schedule"
+        applicationId "clwater.testlib"
         minSdkVersion 21
         targetSdkVersion 23
         versionCode 1

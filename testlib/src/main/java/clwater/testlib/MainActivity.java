@@ -1,8 +1,7 @@
-package com.clwater.lib_schedule;
+package clwater.testlib;
 
-
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 

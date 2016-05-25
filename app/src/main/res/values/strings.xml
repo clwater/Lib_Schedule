@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lib_Schedule</string>
+    <string name="return_this_week">回到\n本周</string>
+    <string name="this_week">当前</string>
+    <string name="schedule">课表</string>
+    <string name="this_week_m">当前:</string>
+    <string name="schedule_m">课表:</string>
 </resources>
