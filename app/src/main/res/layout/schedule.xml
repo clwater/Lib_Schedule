@@ -93,73 +93,108 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="一"
-                        android:textSize="10sp"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_1"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="二"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_2"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="三"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_3"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="四"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_4"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="五"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_5"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="六"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_6"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="七"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_7"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="八"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_8"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="九"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_9"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="十"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_10"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="十一"
+                        android:textSize="12sp"
+                        android:gravity="center"
                         android:id="@+id/lib_edge_11"
+                        android:padding="4dp"
                         />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="十二"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:padding="4dp"
                         android:id="@+id/lib_edge_12"
                         />
 
