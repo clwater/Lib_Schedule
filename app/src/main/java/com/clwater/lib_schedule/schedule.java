@@ -93,16 +93,21 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
         lib_week[1] = (LinearLayout)findViewById(R.id.lib_week1);
         lib_week[2] = (LinearLayout)findViewById(R.id.lib_week2);
         lib_week[3] = (LinearLayout)findViewById(R.id.lib_week3);
+        lib_week[4] = (LinearLayout)findViewById(R.id.lib_week4);
+        lib_week[5] = (LinearLayout)findViewById(R.id.lib_week5);
+        lib_week[6] = (LinearLayout)findViewById(R.id.lib_week6);
+        lib_week[7] = (LinearLayout)findViewById(R.id.lib_week7);
+
     }
 
     private void set_lib_week() {
-        for (int i = 1 ; i < 4 ; i ++){
+        for (int i = 1 ; i < 8 ; i ++){
             lib_week[i].setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, screen_height / 16 ));
         }
     }
 
     private void set_main_week() {
-        for (int i = 1 ; i < 2 ; i++ ){
+        for (int i = 1 ; i < 8 ; i++ ){
             for (int j = 1 ; j < 7 ; j++){
               main_week[i][j].setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, scree_height_dp * 2 ));
             }
@@ -117,11 +122,61 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
         main_week[1][5] = (TextView) findViewById(R.id.week1_5);
         main_week[1][6] = (TextView) findViewById(R.id.week1_6);
 
+
+
+        main_week[2][1] = (TextView) findViewById(R.id.week2_1);
+        main_week[2][2] = (TextView) findViewById(R.id.week2_2);
+        main_week[2][3] = (TextView) findViewById(R.id.week2_3);
+        main_week[2][4] = (TextView) findViewById(R.id.week2_4);
+        main_week[2][5] = (TextView) findViewById(R.id.week2_5);
+        main_week[2][6] = (TextView) findViewById(R.id.week2_6);
+
+
+        main_week[3][1] = (TextView) findViewById(R.id.week3_1);
+        main_week[3][2] = (TextView) findViewById(R.id.week3_2);
+        main_week[3][3] = (TextView) findViewById(R.id.week3_3);
+        main_week[3][4] = (TextView) findViewById(R.id.week3_4);
+        main_week[3][5] = (TextView) findViewById(R.id.week3_5);
+        main_week[3][6] = (TextView) findViewById(R.id.week3_6);
+
+        main_week[4][1] = (TextView) findViewById(R.id.week4_1);
+        main_week[4][2] = (TextView) findViewById(R.id.week4_2);
+        main_week[4][3] = (TextView) findViewById(R.id.week4_3);
+        main_week[4][4] = (TextView) findViewById(R.id.week4_4);
+        main_week[4][5] = (TextView) findViewById(R.id.week4_5);
+        main_week[4][6] = (TextView) findViewById(R.id.week4_6);
+
+        main_week[5][1] = (TextView) findViewById(R.id.week5_1);
+        main_week[5][2] = (TextView) findViewById(R.id.week5_2);
+        main_week[5][3] = (TextView) findViewById(R.id.week5_3);
+        main_week[5][4] = (TextView) findViewById(R.id.week5_4);
+        main_week[5][5] = (TextView) findViewById(R.id.week5_5);
+        main_week[5][6] = (TextView) findViewById(R.id.week5_6);
+
+        main_week[6][1] = (TextView) findViewById(R.id.week6_1);
+        main_week[6][2] = (TextView) findViewById(R.id.week6_2);
+        main_week[6][3] = (TextView) findViewById(R.id.week6_3);
+        main_week[6][4] = (TextView) findViewById(R.id.week6_4);
+        main_week[6][5] = (TextView) findViewById(R.id.week6_5);
+        main_week[6][6] = (TextView) findViewById(R.id.week6_6);
+
+        main_week[7][1] = (TextView) findViewById(R.id.week7_1);
+        main_week[7][2] = (TextView) findViewById(R.id.week7_2);
+        main_week[7][3] = (TextView) findViewById(R.id.week7_3);
+        main_week[7][4] = (TextView) findViewById(R.id.week7_4);
+        main_week[7][5] = (TextView) findViewById(R.id.week7_5);
+        main_week[7][6] = (TextView) findViewById(R.id.week7_6);
+        
+        
+        
+        
+        
+
     }
 
     private void set_linweek() {
-        for (int i = 1 ; i < 4 ; i ++){
-            lin_week[i].setLayoutParams(new LinearLayout.LayoutParams(screen_width / 4, LinearLayout.LayoutParams.WRAP_CONTENT ));
+        for (int i = 1 ; i < 8 ; i ++){
+            lin_week[i].setLayoutParams(new LinearLayout.LayoutParams(screen_width / 6, LinearLayout.LayoutParams.WRAP_CONTENT ));
         }
 
     }
@@ -130,6 +185,11 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
         lin_week[1] = (LinearLayout) findViewById(R.id.week1);
         lin_week[2] = (LinearLayout) findViewById(R.id.week2);
         lin_week[3] = (LinearLayout) findViewById(R.id.week3);
+        lin_week[4] = (LinearLayout) findViewById(R.id.week4);
+        lin_week[5] = (LinearLayout) findViewById(R.id.week5);
+        lin_week[6] = (LinearLayout) findViewById(R.id.week6);
+        lin_week[7] = (LinearLayout) findViewById(R.id.week7);
+
     }
 
     private void set_lib_edge() {

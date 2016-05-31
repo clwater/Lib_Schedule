@@ -248,7 +248,7 @@
                         android:layout_height="wrap_content"
                         android:text="11"
                         android:gravity="center"
-                        
+
                         android:id="@+id/week1_1"/>
 
                     <TextView
@@ -263,28 +263,28 @@
                         android:layout_height="wrap_content"
                         android:text="13"
                         android:gravity="center"
-                        
+
                         android:id="@+id/week1_3"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="14"
                         android:gravity="center"
-                        
+
                         android:id="@+id/week1_4"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="15"
                         android:gravity="center"
-                        
+
                         android:id="@+id/week1_5"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="16"
                         android:gravity="center"
-                        
+
                         android:id="@+id/week1_6"/>
 
 
@@ -293,7 +293,6 @@
 
 
                 </LinearLayout>
-
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -333,9 +332,44 @@
 
                     </LinearLayout>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="21"
+                        android:gravity="center"
 
+                        android:id="@+id/week2_1"/>
 
-
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="22"
+                        android:gravity="center"
+                        android:id="@+id/week2_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="23"
+                        android:gravity="center"
+                        android:id="@+id/week2_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="24"
+                        android:gravity="center"
+                        android:id="@+id/week2_4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="25"
+                        android:gravity="center"
+                        android:id="@+id/week2_5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="26"
+                        android:gravity="center"
+                        android:id="@+id/week2_6"/>
 
 
 
@@ -379,6 +413,49 @@
 
                     </LinearLayout>
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="31"
+                        android:gravity="center"
+
+                        android:id="@+id/week3_1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="32"
+                        android:gravity="center"
+
+                        android:id="@+id/week3_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="33"
+                        android:gravity="center"
+
+                        android:id="@+id/week3_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="34"
+                        android:gravity="center"
+
+                        android:id="@+id/week3_4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="35"
+                        android:gravity="center"
+
+                        android:id="@+id/week3_5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="36"
+                        android:gravity="center"
+
+                        android:id="@+id/week3_6"/>
 
 
 
@@ -386,6 +463,365 @@
 
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/week4"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#d4b5b5"
+                        android:id="@+id/lib_week4">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="周四"
+                            android:textSize="14sp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="12.21"
+                            android:textSize="10sp"
+                            android:id="@+id/lib_week4_title_date"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#34CED9"
+                            android:id="@+id/lib_week4_title_fouce"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="41"
+                        android:gravity="center"
+
+                        android:id="@+id/week4_1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="42"
+                        android:gravity="center"
+
+                        android:id="@+id/week4_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="43"
+                        android:gravity="center"
+
+                        android:id="@+id/week4_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="44"
+                        android:gravity="center"
+
+                        android:id="@+id/week4_4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="45"
+                        android:gravity="center"
+
+                        android:id="@+id/week4_5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="46"
+                        android:gravity="center"
+
+                        android:id="@+id/week4_6"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/week5"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#d4b5b5"
+                        android:id="@+id/lib_week5">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="周五"
+                            android:textSize="14sp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="12.21"
+                            android:textSize="10sp"
+                            android:id="@+id/lib_week5_title_date"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#34CED9"
+                            android:id="@+id/lib_week5_title_fouce"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="51"
+                        android:gravity="center"
+
+                        android:id="@+id/week5_1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="52"
+                        android:gravity="center"
+
+                        android:id="@+id/week5_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="53"
+                        android:gravity="center"
+
+                        android:id="@+id/week5_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="54"
+                        android:gravity="center"
+
+                        android:id="@+id/week5_4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="55"
+                        android:gravity="center"
+
+                        android:id="@+id/week5_5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="56"
+                        android:gravity="center"
+
+                        android:id="@+id/week5_6"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/week6"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#d4b5b5"
+                        android:id="@+id/lib_week6">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="周六"
+                            android:textSize="14sp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="12.21"
+                            android:textSize="10sp"
+                            android:id="@+id/lib_week6_title_date"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#34CED9"
+                            android:id="@+id/lib_week6_title_fouce"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="61"
+                        android:gravity="center"
+
+                        android:id="@+id/week6_1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="62"
+                        android:gravity="center"
+
+                        android:id="@+id/week6_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="63"
+                        android:gravity="center"
+
+                        android:id="@+id/week6_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="64"
+                        android:gravity="center"
+
+                        android:id="@+id/week6_4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="65"
+                        android:gravity="center"
+
+                        android:id="@+id/week6_5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="66"
+                        android:gravity="center"
+
+                        android:id="@+id/week6_6"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/week7"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#d4b5b5"
+                        android:id="@+id/lib_week7">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="周日"
+                            android:textSize="14sp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="12.21"
+                            android:textSize="10sp"
+                            android:id="@+id/lib_week7_title_date"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:background="#34CED9"
+                            android:id="@+id/lib_week7_title_fouce"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="71"
+                        android:gravity="center"
+
+                        android:id="@+id/week7_1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="72"
+                        android:gravity="center"
+
+                        android:id="@+id/week7_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="73"
+                        android:gravity="center"
+
+                        android:id="@+id/week7_3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="74"
+                        android:gravity="center"
+
+                        android:id="@+id/week7_4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="75"
+                        android:gravity="center"
+
+                        android:id="@+id/week7_5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="76"
+                        android:gravity="center"
+
+                        android:id="@+id/week7_6"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
 
 
 
