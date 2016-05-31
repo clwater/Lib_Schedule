@@ -3,6 +3,7 @@ package com.clwater.lib_schedule;
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.renderscript.Type;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -28,7 +29,8 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
     private Context context;
     private Activity activity;
     private LinearLayout[] lin_week  , lib_week;
-    private TextView[][] main_week;
+    private TextView[][] main_week ;
+    private TextView[] lib_week_title_fouce;
 
     public schedule(Context context) {
         super(context);
@@ -83,11 +85,40 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
         ins_lib_week();
         set_lib_week();
 
+
+        lib_week_title_fouce = new TextView[8];
+        ins_title_fouce();
+        set_title_fouce();
+
         main_week = new TextView[8][7];
         ins_main_week();
         set_main_week();
 
     }
+
+
+    private void ins_title_fouce() {
+
+        lib_week_title_fouce[1] = (TextView)findViewById(R.id.lib_week1_title_fouce);
+        lib_week_title_fouce[2] = (TextView)findViewById(R.id.lib_week2_title_fouce);
+        lib_week_title_fouce[3] = (TextView)findViewById(R.id.lib_week3_title_fouce);
+        lib_week_title_fouce[4] = (TextView)findViewById(R.id.lib_week4_title_fouce);
+        lib_week_title_fouce[5] = (TextView)findViewById(R.id.lib_week5_title_fouce);
+        lib_week_title_fouce[6] = (TextView)findViewById(R.id.lib_week6_title_fouce);
+        lib_week_title_fouce[7] = (TextView)findViewById(R.id.lib_week7_title_fouce);
+
+    }
+
+    private void clearalllib_week_title_fouce() {
+        for (int i = 1 ; i < 8 ; i++){
+            //lib_week_title_fouce[i].setBackgroundColor(Color.parseColor("#EEEEEE"));
+
+        }
+    }
+
+    private void set_title_fouce() {
+        clearalllib_week_title_fouce();
+     }
 
     private void ins_lib_week() {
         lib_week[1] = (LinearLayout)findViewById(R.id.lib_week1);

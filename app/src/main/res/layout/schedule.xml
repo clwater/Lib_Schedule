@@ -13,7 +13,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:padding="3dp"
+            android:padding="2dp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.7"
@@ -79,14 +79,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-
                     android:background="@color/title_edge"
                     android:id="@+id/lib_edge">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#000"
+
                         android:id="@+id/lib_edge_0"
                         />
 
@@ -216,14 +215,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:background="#d4b5b5"
+                        android:background="@color/title_edge"
                         android:id="@+id/lib_week1">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="周一"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:gravity="center"/>
 
                         <TextView
@@ -237,7 +236,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="3dp"
+                            android:layout_height="2dp"
                             android:background="#34CED9"
                             android:id="@+id/lib_week1_title_fouce"/>
 
@@ -305,14 +304,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:background="#d4b5b5"
+                        android:background="@color/title_edge"
                         android:id="@+id/lib_week2">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="周二"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:gravity="center"/>
 
                         <TextView
@@ -326,7 +325,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="3dp"
+                            android:layout_height="2dp"
                             android:background="#34CED9"
                             android:id="@+id/lib_week2_title_fouce"/>
 
@@ -337,7 +336,6 @@
                         android:layout_height="wrap_content"
                         android:text="21"
                         android:gravity="center"
-
                         android:id="@+id/week2_1"/>
 
                     <TextView
@@ -386,14 +384,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:background="#d4b5b5"
+                        android:background="@color/title_edge"
                         android:id="@+id/lib_week3">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="周三"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:gravity="center"/>
 
                         <TextView
@@ -407,7 +405,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="3dp"
+                            android:layout_height="2dp"
                             android:background="#34CED9"
                             android:id="@+id/lib_week3_title_fouce"/>
 
@@ -475,14 +473,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:background="#d4b5b5"
+                        android:background="@color/title_edge"
                         android:id="@+id/lib_week4">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="周四"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:gravity="center"/>
 
                         <TextView
@@ -496,7 +494,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="3dp"
+                            android:layout_height="2dp"
                             android:background="#34CED9"
                             android:id="@+id/lib_week4_title_fouce"/>
 
@@ -564,14 +562,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:background="#d4b5b5"
+                        android:background="@color/title_edge"
                         android:id="@+id/lib_week5">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="周五"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:gravity="center"/>
 
                         <TextView
@@ -585,7 +583,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="3dp"
+                            android:layout_height="2dp"
                             android:background="#34CED9"
                             android:id="@+id/lib_week5_title_fouce"/>
 
@@ -653,14 +651,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:background="#d4b5b5"
+                        android:background="@color/title_edge"
                         android:id="@+id/lib_week6">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="周六"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:gravity="center"/>
 
                         <TextView
@@ -674,7 +672,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="3dp"
+                            android:layout_height="2dp"
                             android:background="#34CED9"
                             android:id="@+id/lib_week6_title_fouce"/>
 
@@ -742,14 +740,14 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:background="#d4b5b5"
+                        android:background="@color/title_edge"
                         android:id="@+id/lib_week7">
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="周日"
-                            android:textSize="14sp"
+                            android:textSize="12sp"
                             android:gravity="center"/>
 
                         <TextView
@@ -763,7 +761,7 @@
 
                         <TextView
                             android:layout_width="match_parent"
-                            android:layout_height="3dp"
+                            android:layout_height="2dp"
                             android:background="#34CED9"
                             android:id="@+id/lib_week7_title_fouce"/>
 
