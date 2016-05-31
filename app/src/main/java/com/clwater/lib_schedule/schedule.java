@@ -111,7 +111,7 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
 
     private void clearalllib_week_title_fouce() {
         for (int i = 1 ; i < 8 ; i++){
-            //lib_week_title_fouce[i].setBackgroundColor(Color.parseColor("#EEEEEE"));
+            lib_week_title_fouce[i].setBackgroundColor(Color.parseColor("#EEEEEE"));
 
         }
     }
@@ -128,6 +128,10 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
         lib_week[5] = (LinearLayout)findViewById(R.id.lib_week5);
         lib_week[6] = (LinearLayout)findViewById(R.id.lib_week6);
         lib_week[7] = (LinearLayout)findViewById(R.id.lib_week7);
+
+        for (int i = 1 ; i < 8 ; i++){
+            lib_week[i].setOnClickListener(this);
+        }
 
     }
 
@@ -257,9 +261,34 @@ public class schedule  extends LinearLayout implements View.OnClickListener {
                 break;
             case R.id.lib_title_choose_week:
                 break;
-
+            case R.id.week1:
+                changechoose(1);
+                break;
+            case R.id.week2:
+                changechoose(2);
+                break;
+            case R.id.week3:
+                changechoose(3);
+                break;
+            case R.id.week4:
+                changechoose(4);
+                break;
+            case R.id.week5:
+                changechoose(5);
+                break;
+            case R.id.week6:
+                changechoose(6);
+                break;
+            case R.id.week7:
+                changechoose(7);
+                break;
 
         }
 
+    }
+
+    private void changechoose(int index) {
+        clearalllib_week_title_fouce();
+        lin_week[index].setBackgroundColor(Color.parseColor("#34CED9"));
     }
 }
